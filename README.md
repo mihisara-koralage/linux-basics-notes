@@ -1,3 +1,4 @@
+
 # Linux Basics Notes
 
 This repository contains my Linux learning notes as part of my Cloud & DevOps learning path.
@@ -5,6 +6,7 @@ This repository contains my Linux learning notes as part of my Cloud & DevOps le
 ## Progress
 - Day 1: Basic Linux commands and file operations
 - Day 2: File viewing, permissions, and Git workflow basics
+- Day 3: Package management and process monitoring
 
 ## Goal
 Build strong Linux fundamentals for Cloud Engineering and DevOps roles.
