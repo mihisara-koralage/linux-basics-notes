@@ -8,6 +8,7 @@ This repository contains my Linux learning notes as part of my Cloud & DevOps le
 - Day 2: File viewing, permissions, and Git workflow basics
 - Day 3: Package management and process monitoring
 - Day 4: Users, groups, and environment variables
+- Day 7: Shell scripting with conditions and loops
 
 ## Goal
 Build strong Linux fundamentals for Cloud Engineering and DevOps roles.
