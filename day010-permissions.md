@@ -34,8 +34,7 @@ Groups are commonly used in DevOps for:
 File permissions define who can read, write, or execute a file.
 
 Example:
-```text
--rwxr-xr--  ```
+```-rwxr-xr--```
 
 Meaning:
 
