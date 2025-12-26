@@ -29,38 +29,39 @@ Command used:
 
 - sudo apt update : This command fetches the latest information about available packages.
 
-##Installing Packages
+## Installing Packages
 
 - sudo apt install curl : Software can be installed using the apt install command.
 - curl --version : Verify installation
  
-##Upgrading Installed Packages
+## Upgrading Installed Packages
 Installed packages can be upgraded to newer versions.
 
 - sudo apt upgrade : This updates all installed packages to their latest versions.
 
-##Removing Packages
+## Removing Packages
 Packages can be removed when no longer needed.
 
 - sudo apt remove curl 
 - sudo apt purge curl : Remove package and configuration files
 
-##Searching for Packages
+## Searching for Packages
 Before installing software, packages can be searched.
 
 - apt search nginx : This helps identify available packages in the repository.
 
-##Practical Commands Used
-
-```sudo apt update
+## Practical Commands Used
+```
+sudo apt update
 sudo apt install curl
 curl --version
 sudo apt upgrade
 sudo apt remove curl
 sudo apt install tree
-tree```
+tree
+``` 
 
-##What I Practiced
+## What I Practiced
 - Updating package lists
 - Installing and removing software
 - Searching for available packages
