@@ -20,7 +20,7 @@ ls
 Linux searches directories listed in $PATH.
 - echo $PATH : To chech it
 That’s why you can run ls, git, python from anywhere.
-## Why Environment Variables Matter in DevOps 🧠
+## Why Environment Variables Matter in DevOps 
 In real DevOps work:
 - Passwords ❌ hardcoded
 - API keys ❌ in code
