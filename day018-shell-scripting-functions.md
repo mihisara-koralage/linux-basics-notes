@@ -2,7 +2,8 @@
 ## Why Functions Matter?
 Without functions:
 - Code repeats 
-- Scripts become messy 
+- Scripts become messy
+
 With functions:
 - Reusable logic 
 - Clean scripts 
