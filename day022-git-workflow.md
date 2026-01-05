@@ -7,7 +7,7 @@ Parallel versions of your project
 
 ## Why DevOps uses branches
 - Protects the main branch from breaking changes
--Allows safe experimentation without affecting production code
+- Allows safe experimentation without affecting production code
 - Enables parallel work by multiple team members
 
 ## Commands I practiced
