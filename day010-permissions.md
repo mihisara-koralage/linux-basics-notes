@@ -34,8 +34,7 @@ Groups are commonly used in DevOps for:
 File permissions define who can read, write, or execute a file.
 
 Example:
-```text
--rwxr-xr--  ```
+```-rwxr-xr--```
 
 Meaning:
 
@@ -54,8 +53,7 @@ Command used:
 
 - ls -l – View file permissions
 
-##chmod – Change Permissions
-
+## chmod – Change Permissions
 Used to modify file permissions.
 
 Symbolic method:
@@ -85,8 +83,7 @@ This is important when:
 - Applications cannot access files
 - Deployments fail due to permission issues
 
-##Why Permissions Matter in DevOps
-
+## Why Permissions Matter in DevOps
 Permissions are critical in DevOps because:
 
 - Incorrect permissions can break deployments
@@ -94,7 +91,7 @@ Permissions are critical in DevOps because:
 - Security risks can occur if permissions are too open
 - Understanding permissions helps prevent production issues.
 
-##What I Practiced
+## What I Practiced
 
 - Checking file permissions
 - Changing permissions using chmod
