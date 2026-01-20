@@ -8,7 +8,7 @@ A Docker volume is:
 - Storage outside the container
 - Managed by Docker
 - Survives container deletion
-## Commands you used
+## Commands I used
 ```bash
 docker volume create mydata  # Create volume
 docker volume ls             # List volumes
