@@ -20,7 +20,7 @@
 - Docker images
 - Volumes
 - Stability & security
-## Commands you used
+## Commands I used
 ```bash
 mkdir ~/nginx-bind
 cd ~/nginx-bind
