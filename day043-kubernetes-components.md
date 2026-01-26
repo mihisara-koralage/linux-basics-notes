@@ -58,18 +58,18 @@ Main components (conceptual only):
         +------------------------+
         |                        |
         |   Control Plane        |
-        |  +------------------+ |
-        |  | API Server       | |
-        |  | Scheduler       | |
-        |  | Controllers     | |
-        |  | etcd            | |
-        |  +------------------+ |
+        |  +------------------+  |
+        |  | API Server       |  |
+        |  | Scheduler        |  |
+        |  | Controllers      |  |
+        |  | etcd             |  |
+        |  +------------------+  |
         |                        |
         |   Worker Nodes         |
-        |  +---------+ +-------+|
-        |  | Node 1  | | Node 2||
-        |  |  Pod    | |  Pod  ||
-        |  +---------+ +-------+|
+        |  +---------+ +-------+ |
+        |  | Node 1  | | Node 2| |
+        |  |  Pod    | |  Pod  | |
+        |  +---------+ +-------+ |
         +------------------------+
 ```
 ### Request Flow
