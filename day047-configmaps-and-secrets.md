@@ -48,7 +48,7 @@ data:
   LOG_LEVEL: info
 ```
 ## Example: Secret YAML
-```text
+```yaml
 apiVersion: v1
 kind: Secret
 metadata:
