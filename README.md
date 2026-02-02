@@ -1,15 +1,74 @@
 
-# Linux Basics Notes
+# 🚀 Linux & DevOps Learning Notes
 
-This repository contains my Linux learning notes as part of my Cloud & DevOps learning path.
+This repository documents my hands-on learning journey in **Linux, Docker, and Kubernetes** as part of my Cloud & DevOps path.
 
-## Progress
-- Day 1: Basic Linux commands and file operations
-- Day 2: File viewing, permissions, and Git workflow basics
-- Day 3: Package management and process monitoring
-- Day 4: Users, groups, and environment variables
-- Day 7: Shell scripting with conditions and loops
+I’m a 1st-year Software Engineering undergraduate building practical skills step-by-step and learning in public.
 
-## Goal
-Build strong Linux fundamentals for Cloud Engineering and DevOps roles.
+---
+
+## 📌 What This Repo Contains
+
+Structured daily notes and exercises on:
+
+### 🐧 Linux Fundamentals
+- File system navigation & management  
+- Permissions, users & groups  
+- Package management  
+- Process & service monitoring  
+- Environment variables  
+- Bash scripting basics  
+
+---
+
+### 🐳 Docker
+- Images & containers  
+- Dockerfiles  
+- Volumes & data persistence  
+- Networking & port mapping  
+- Docker Compose (multi-container apps)
+
+---
+
+### ☸️ Kubernetes
+- Pods, Deployments & ReplicaSets  
+- Services (ClusterIP, NodePort, LoadBalancer)  
+- ConfigMaps & Secrets  
+- Volumes, PV & PVC  
+- Namespaces & resource limits  
+- Ingress & external access  
+
+---
+
+## 🎯 Goal
+
+Build strong foundations in:
+- Cloud Engineering  
+- DevOps practices  
+- Containerization & orchestration  
+
+And gradually move toward real-world projects and internships in Cloud/DevOps.
+
+---
+
+## 📈 Learning Approach
+- Daily learning habit  
+- Hands-on practice over theory  
+- Documenting progress publicly  
+- Building discipline & consistency  
+
+---
+
+## 🔥 Current Status
+✅ 50+ days of continuous learning  
+📚 Consistently updating notes  
+🚀 Moving toward real projects next  
+
+---
+
+## 🤝 Connect With Me
+I share my journey and progress on LinkedIn.
+
+Learning in public, improving every day.
+
 
