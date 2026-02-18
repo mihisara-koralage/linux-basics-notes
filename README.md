@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Linux%20%26%20DevOps%20Notes&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Hands-on%20Cloud%20Engineering%20Journey&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Linux%20%26%20DevOps%20Notes&amp;fontSize=42&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Hands-on%20Cloud%20Engineering%20Journey&amp;descAlignY=58&amp;descSize=16" width="100%"/>
 
 <br/>
 
