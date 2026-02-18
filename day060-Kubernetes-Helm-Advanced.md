@@ -176,7 +176,7 @@ flowchart TD
 
 <div align="center">
 
-**[← Day 59](../day-59/)** &nbsp;|&nbsp; **[100 Days of DevOps](../../README.md)** &nbsp;|&nbsp; **[Day 61 →](../day-61/)**
+**[← Day 59](day059-Kubernetes-Helm.md)** &nbsp;|&nbsp; **[100 Days of DevOps](../../README.md)** &nbsp;|&nbsp; **[Day 61 →](../day-61/)**
 
 *Part of my #100DaysOfDevOps journey*
 
