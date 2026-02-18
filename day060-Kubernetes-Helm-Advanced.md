@@ -142,14 +142,14 @@ A mature team Helm workflow typically looks like this:
 
 ```mermaid
 flowchart TD
-    Dev[👩‍💻 Developer\nPushes Code] --> Git[📦 Git Repository\nChart + Values Files]
-    Git --> CI[⚙️ CI Pipeline\nLint · Test · Package]
-    CI --> Reg[🗃️ Chart Registry\ne.g. OCI / Helm Repo]
-    Reg --> CD_Dev[🚀 Deploy to Dev\nhelm upgrade -f values-dev.yaml]
-    CD_Dev --> CD_Stage[🚀 Deploy to Staging\nhelm upgrade -f values-stage.yaml]
+    Dev["👩‍💻 DeveloperPushes Code"] --> Git["📦 Git RepositoryChart + Values Files"]
+    Git --> CI["⚙️ CI PipelineLint · Test · Package"]
+    CI --> Reg["🗃️ Chart Registrye.g. OCI / Helm Repo"]
+    Reg --> CD_Dev["🚀 Deploy to Devhelm upgrade -f values-dev.yaml"]
+    CD_Dev --> CD_Stage["🚀 Deploy to Staginghelm upgrade -f values-stage.yaml"]
     CD_Stage --> Approve{✅ Approval Gate}
-    Approve --> CD_Prod[🚀 Deploy to Production\nhelm upgrade -f values-prod.yaml]
-    CD_Prod --> Monitor[📊 Monitor\nAlerts · Metrics]
+    Approve --> CD_Prod["🚀 Deploy to Productionhelm upgrade -f values-prod.yaml"]
+    CD_Prod --> Monitor["📊 MonitorAlerts · Metrics"]
     Monitor -->|Incident| Rollback[⏪ helm rollback]
 ```
 
