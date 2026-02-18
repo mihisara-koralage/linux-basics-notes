@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Linux%20%26%20DevOps%20Notes&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Hands-on%20Cloud%20Engineering%20Journey&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Linux%20%26%20DevOps%20Notes&amp;fontSize=42&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Hands-on%20Cloud%20Engineering%20Journey&amp;descAlignY=58&amp;descSize=16" width="100%"/>
 
 <br/>
 
@@ -35,11 +35,11 @@ The goal isn't just to learn tools. It's to build the **engineering mindset** re
 
 ```mermaid
 flowchart LR
-    A([🐧 Linux\nFundamentals]) --> B([🐳 Docker\nContainerization])
-    B --> C([☸️ Kubernetes\nOrchestration])
-    C --> D([⛵ Helm\nPackage Mgmt])
-    D --> E([🔧 CI/CD\nPipelines])
-    E --> F([☁️ Cloud\nPlatforms])
+    A(["🐧 Linux<br/>Fundamentals"]) --> B(["🐳 Docker<br/>Containerization"])
+    B --> C(["☸️ Kubernetes<br/>Orchestration"])
+    C --> D(["⛵ Helm<br/>Package Mgmt"])
+    D --> E(["🔧 CI/CD<br/>Pipelines"])
+    E --> F(["☁️ Cloud<br/>Platforms"])
 
     style A fill:#FCC624,color:#000,stroke:#e6b300
     style B fill:#2496ED,color:#fff,stroke:#1a7abf
@@ -195,8 +195,8 @@ I share my learning journey, notes, and progress on **LinkedIn** — where I pos
 
 If you're on a similar path, let's connect.
 
-[![www.linkedin.com/in/mihisara-koralage-06b739313](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![https://github.com/mihisara-koralage](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mihisara-koralage-06b739313)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mihisara-koralage)
 
 ---
 
@@ -204,6 +204,6 @@ If you're on a similar path, let's connect.
 
 *Built with consistency. Documented with intention.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2c5364,50:203a43,100:0f2027&amp;height=100&amp;section=footer" width="100%"/>
 
 </div>
