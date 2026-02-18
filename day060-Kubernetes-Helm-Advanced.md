@@ -99,10 +99,10 @@ helm upgrade --install myapp ./mychart -f values/values-prod.yaml
 ```mermaid
 flowchart LR
     A[helm upgrade] --> B{Compare Manifests}
-    B --> C[Unchanged Resources\nLeft alone]
-    B --> D[Modified Resources\nPatched]
-    B --> E[New Resources\nCreated]
-    D --> F[Release History\nIncremented]
+    B --> C[Unchanged Resources \n Left alone]
+    B --> D[Modified Resources \n Patched]
+    B --> E[New Resources \n Created]
+    D --> F[Release History \nIncremented]
     E --> F
 ```
 
