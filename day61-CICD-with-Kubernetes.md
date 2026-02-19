@@ -23,31 +23,31 @@ Developer pushes code
         │
         ▼
 ┌─────────────────┐
-│   Git Repository │  (e.g. GitHub)
+│   Git Repository│  (e.g. GitHub)
 └────────┬────────┘
          │  triggers
          ▼
 ┌─────────────────┐
-│   CI Pipeline    │  lint → test → build
-│ (GitHub Actions) │
+│   CI Pipeline   │  lint → test → build
+│ (GitHub Actions)│
 └────────┬────────┘
          │  on success
          ▼
 ┌─────────────────┐
-│  Docker Build    │  docker build -t myapp:v2 .
-│  & Push to       │  docker push registry/myapp:v2
-│  Registry        │
+│  Docker Build   │  docker build -t myapp:v2 .
+│  & Push to      │  docker push registry/myapp:v2
+│  Registry       │
 └────────┬────────┘
          │
          ▼
 ┌─────────────────┐
-│   CD Pipeline    │  kubectl set image /
+│   CD Pipeline   │  kubectl set image /
 └────────┬────────┘  helm upgrade
          │
          ▼
 ┌─────────────────┐
-│   Kubernetes     │  rolling update → new pods live
-│   Cluster        │
+│   Kubernetes    │  rolling update → new pods live
+│   Cluster       │
 └─────────────────┘
 ```
 
