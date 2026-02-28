@@ -1,30 +1,68 @@
-[![Linux](https://img.shields.io/badge/Linux-#FCC624?logo=linux&style=flat-square)](https://www.linux.org)
-[![Open Source](https://img.shields.io/badge/Open%20Source-#008751?style=flat-square)](https://opensource.org)
+# Day 068 – etcd Snapshot & Restore
 
-# Day 068: etcd Snapshots and Restore
+## 🎯 Objective
+Understand how to backup and restore Kubernetes cluster state using etcd snapshot.
 
-## What is etcd?
-etcd is a distributed key-value store that provides a reliable way to store data across a cluster of machines. It is often used for service discovery, configuration management, and coordination in distributed systems.
+---
 
-## Importance of Snapshots
-Snapshots are crucial for the following reasons:
-- **Data Backup**: Takes a point-in-time backup of your etcd data.
-- **Disaster Recovery**: Allows you to restore your data in case of a failure.
-- **Migration**: Helps in migrating your data between clusters.
+## 🧠 What is etcd Snapshot?
 
-## Taking a Snapshot
-To create a snapshot, you can use the following command:
-```bash
-ETCDCTL_API=3 etcdctl snapshot save <snapshot-file-path>
-```
-Replace `<snapshot-file-path>` with the desired file path for the snapshot.
+- Point-in-time backup of cluster state
+- Stored as snapshot.db
+- Contains Kubernetes objects
+- Does NOT contain application data
 
-## Restoring from a Snapshot
-To restore from a snapshot, use the command:
-```bash
-ETCDCTL_API=3 etcdctl snapshot restore <snapshot-file-path>
-```
-Replace `<snapshot-file-path>` with the path to your snapshot file. Make sure to follow any additional parameters as required for your setup.
+---
 
-## Conclusion
-Understanding how to take snapshots and restore etcd data is essential for maintaining data integrity and availability in distributed systems. Regular backups can protect against unexpected failures and data loss.
+## 🛠 Snapshot Command
+
+ETCDCTL_API=3 etcdctl snapshot save snapshot.db
+
+Production version includes:
+- --endpoints
+- --cacert
+- --cert
+- --key
+
+---
+
+## 🔍 Verify Snapshot
+
+ETCDCTL_API=3 etcdctl snapshot status snapshot.db
+
+---
+
+## 🔄 Restore Process Overview
+
+1. Stop control plane
+2. Restore snapshot
+3. Replace etcd data directory
+4. Restart services
+
+Restore command:
+
+ETCDCTL_API=3 etcdctl snapshot restore snapshot.db --data-dir=/var/lib/etcd-restore
+
+---
+
+## 🚨 Production Notes
+
+- Store backups offsite
+- Encrypt backups
+- Automate daily snapshot
+- Test restore regularly
+
+---
+
+## 🧠 Key Takeaways
+
+- etcd = cluster brain
+- Snapshot = cluster configuration backup
+- Persistent volumes are NOT included
+- Restore requires control plane restart
+
+---
+
+## 💬 Interview Question I Can Answer
+
+How would you recover a self-managed Kubernetes cluster if etcd is corrupted?
