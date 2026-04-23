@@ -15,3 +15,4 @@ Steps:
 4. View logs in Kibana
 
 - kubectl port-forward svc/kibana-kibana -n logging 5601:5601
+- kubectl get secret elasticsearch-master-credentials -n logging -o jsonpath="{.data.password}" | base64 -d
