@@ -13,3 +13,5 @@ Steps:
 2. Install Kibana
 3. Install Fluentd
 4. View logs in Kibana
+
+- kubectl port-forward svc/kibana-kibana -n logging 5601:5601
